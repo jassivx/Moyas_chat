@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Hello, how are you?",
+    "answer": "I'm MOYAS Bot, but I'm here to help you!"
+  },
+  {
+    "question": "What is your name?",
+    "answer": "I am MOYAS Bot, your virtual assistant, Serving MY Nation."
+  },
+  {
+    "question": "What is the Minimum educational qualification for the Experiential Learning Program?",
+    "answer": "This program is open to undergraduate students in their second and third years, studying at UGC-recognized colleges and institutions. Additionally, individuals under the age of 29 who are not currently students/non-students can also register."
+  },
+  {
+    "question": "What conditions must non-students meet to enroll in this program?",
+    "answer": "Non-students seeking to register for this program must meet specific eligibility criteria. This entails having a matriculation certificate and successfully completing the Aadhaar KYC process. During the registration process, individuals in this category are required to upload their matriculation certificate."
+  },
+  {
+    "question": "Is there any restriction of age/gender?",
+    "answer": "There is no restriction of age/gender."
+  },
+  {
+    "question": "Will the business provide any mode for conveyance/ conveyance allowance from residence to the establishment?",
+    "answer": "No. Students have to bear the cost of traveling from their residence to the business establishment."
+  },
+  {
+    "question": "Is there any stipend for students for participating in the program?",
+    "answer": "No stipend will be given to the student."
+  },
+  {
+    "question": "How can students choose the business as per their field of interest?",
+    "answer": "The student may first register on the portal (mybharat.gov.in) where options are available on the portal dashboard to select the business. The field of interest can be seen by clicking on the business opportunity."
+  },
+  {
+    "question": "Can students of Diploma/ITI/12th become a part of this experiential learning program?",
+    "answer": "The Program is for the undergraduate students only."
+  },
+  {
+    "question": "How will this Experiential Learning Program help me in my academic credits?",
+    "answer": "The experiential learning program would be available irrespective of any academic credit given by the college. However, colleges can give academic credits to the youth on the basis of available UGC norms."
+  },
+  {
+    "question": "Who will verify my candidature?",
+    "answer": "The NSS program officer/nodal officer of your college will be the verifier."
+  },
+  {
+    "question": "I am a student of a postgraduate course, how can I join the program?",
+    "answer": "As of now the program is specifically for UG students."
+  },
+  {
+    "question": "What is the process after completion of training?",
+    "answer": "After completion of the training program, the student will write a brief report and submit it to the college. He/she will also submit feedback on the portal about his/her Experiential learning."
+  },
+  {
+    "question": "Will there be any interviews that Students have to face for enrollment to the program?",
+    "answer": "The profiles of students who have applied for the program in response to the opportunities posted by the business will be visible to them. The business will select the students based on their preference."
+  },
+  {
+    "question": "Is there any cost/application fees of this program?",
+    "answer": "No. This program has no application or course fees."
+  },
+  {
+    "question": "Will I get a certificate after completion of the Program?",
+    "answer": "Yes, students will be provided a certificate through the portal after their successful and satisfactory completion of the Program."
+  },
+  {
+    "question": "In case of any further queries, whom should I contact?",
+    "answer": "There is a dedicated helpline for seeking details of the program whose contact details are as under: Helpline number 1800 212 2729."
+  },
+  {
+    "question": "Whether any fee involved in registration or applying for experiential learning Program?",
+    "answer": "No, there is no fee involved in registration or applying for the experiential learning Program."
+  },
+  {
+    "question": "Is MY Bharat a Jobs portal?",
+    "answer": "No, MY Bharat is not a jobs portal. The portal connects youth to learning opportunities in industry, Government, and Non-Profits. There is no stipend attached to the learning opportunities."
+  },
+  {
+    "question": "What will be the role of NSS Program Officers on MY Bharat portal?",
+    "answer": "Program Officers have to verify the students of the concerned colleges and approve on MY Bharat portal. They will also check and approve the application of students who have applied for an opportunity, on the MY Bharat Portal."
+  },
+  {
+    "question": "Who will verify non-NSS students of the college?",
+    "answer": "Program Officer of the college with NSS, Placement officer, or any faculty nominated by the principal of the Non-NSS College will be the verifier."
+  },
+  {
+    "question": "Is there any specific criteria for Program Officers to Register on MY Bharat Portal as a verifier?",
+    "answer": "Any designated NSS program officer can become a verifier on MY Bharat Portal."
+  },
+  {
+    "question": "Is there any role of Program Officer during and after the Experiential learning Program?",
+    "answer": "The program officer will act as a link in connecting the students with the businesses and will be the concerned nodal officer for their students in the Experiential learning Program till the program lasts."
+  },
+  {
+    "question": "How the business will register and post opportunity on the portal?",
+    "answer": "Those businesses which wish to participate in the program would register on the MY Bharat portal as a partner and then post the opportunities/available slots on the MY Bharat portal of the Department of Youth Affairs (mybharat.gov.in)."
+  },
+  {
+    "question": "What will be the role of Businesses as a partner in this program?",
+    "answer": "The business will provide opportunity to the students who will apply for the same as per their area of interest. It will provide adequate opportunity to youth to learn functional roles and mark daily attendance of youth."
+  },
+  {
+    "question": "Who will verify the students who will join our business?",
+    "answer": "Program Officer of the college with NSS/and Placement officer of the Non-NSS College will be the verifier."
+  },
+  {
+    "question": "Who will verify the businesses on MY Bharat portal?",
+    "answer": "Registered Business Forums will verify the businesses."
+  },
+  {
+    "question": "Is the business required to provide stipend to the students for the program?",
+    "answer": "There is no provision for providing the stipend to the students."
+  },
+  {
+    "question": "What are the services we have to provide to students doing Experiential Learning Program at our organization?",
+    "answer": "Basic training and infrastructure required for the program is to be provided. No additional allowances are required to be paid."
+  },
+  {
+    "question": "What is the duration of the program?",
+    "answer": "The program is for 45 days for 8 hours per day (360 hours). This duration can be staggered if businesses so desire."
+  },
+  {
+    "question": "What are the areas in which business can provide Opportunities?",
+    "answer": "Business may provide the opportunity in the field of their expertise. For one student, one or two areas of training may be identified."
+  },
+  {
+    "question": "Eligibility criteria for Business to register on MY Bharat Portal?",
+    "answer": "Businesses should have an annual turnover upwards of INR 40 Lacs and either GST registration or Udyam registration is mandatory for being eligible to post opportunities."
+  },
+  {
+    "question": "Who will be authorized from the partner organization to register on the MY Bharat Portal?",
+    "answer": "The business has to identify a nodal officer in their organization by itself who will verify the students for the opportunity."
+  },
+  {
+    "question": "Is there any selection criteria advised to business for the selection of students?",
+    "answer": "The business may select the students as per their needs and program for which students are being considered."
+  },
+  {
+    "question": "What are the details/data of students (attendance sheet, score card, certificate etc.) that has to be submitted by business to the ISF/DoYA/Colleges, if any?",
+    "answer": "The attendance of the students may be submitted through the MY Bharat portal."
+  },
+  {
+    "question": "Who will verify the businesses on this portal?",
+    "answer": "Registered Business Forums are verifying the businesses on this portal."
+  },
+  {
+    "question": "What will be the role of MY Bharat?",
+    "answer": "Mera Yuva Bharat (MY Bharat) is envisioned as a pivotal, technology-driven facilitator for youth development and youth-led development, with the overarching goal of providing equitable opportunities to empower the youth in realizing their aspirations and contributing to the creation of a 'Viksit Bharat' (developed India)."
+  }
+]
+
+
