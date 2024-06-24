@@ -64,6 +64,8 @@ import torch
 # Load the dataset
 data = pd.read_json("C:/Users/AKASH VISHWAKARMA/Documents/GitHub/Moyas_chat/data.json")
 
+print(data.columns)
+
 # Extract the input and target text
 input_text = data['question'].tolist()
 target_text = data['answer'].tolist()
