@@ -32,6 +32,7 @@ print(stopwords.words("english"))
 stop_words = set(stopwords.words('english'))
 
 # Function to clean the text by removing unwanted symbols
+
 def clean_text(text):
     return re.sub(r'[^\w\s]', '', text)
 
