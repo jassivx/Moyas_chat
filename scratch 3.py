@@ -49,6 +49,10 @@ for i in para: #here the paragraph is a list
     print(words)
 
 
+for i in words:
+    words.lower()
+
+
 '''
 # Process the corpus
 para = nltk.tokenize.sent_tokenize(corpus)
