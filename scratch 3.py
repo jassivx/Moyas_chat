@@ -39,21 +39,35 @@ corpus = "Avul Pakir Jainulabdeen Abdul Kalam BR (/ˈɑːbdəl kəˈlɑːm/ ⓘ;
 # Define stopwords list
 stop_words = stopwords.words('english')
 
+#for i in corpus:
+cleaned = re.sub(r"[^a-zA-Z]"," ","corpus")
+print(cleaned)
+print(type(cleaned))
 # Remove punctuation and special characters using regular expression
 pattern = r'[^\w\s]'  # Matches any character that's not a word character or whitespace
 
-para = nltk.sent_tokenize(corpus)
+para = nltk.sent_tokenize(cleaned)
+print(para[1])
 
-for i in para: #here the paragraph is a list
-    words = nltk.word_tokenize(corpus)
-    print(words)
+#words = [[word for word in nltk.word_tokenize(sentence) if word.lower() not in stop_words] for sentence in sentences]
 
 
-for i in words:
-    words.lower()
+
+#words = [nltk.word_tokenize(i) for i in para]
+words = [nltk.word_tokenize(sentence) for sentence in para]
+
+
+print(words)
+
+filtered_words = [[word for word in sentence if word.lower() not in stop_words] for sentence in words]
 
 
 '''
+for i in words:
+    words.lower()
+[corpus for i in corpus]
+
+
 # Process the corpus
 para = nltk.tokenize.sent_tokenize(corpus)
 
