@@ -1,29 +1,46 @@
 
 
-
 from flask import Flask, jsonify, request
 import csv
+import pandas as pd
 
 app = Flask(__name__)
 
 
 def read_csv():
-    with open('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 9.csv', newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        data = [row for row in reader]
+    data = pd.read_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 9.csv')
+
+    #    reader = csv.DictReader(csvfile)
+    #    data = [row for row in reader]
     return data
 
 
-@app.route('/users', methods=['GET'])
-def get_users():
-    data = read_csv()
-    return jsonify(data)
+
+
+
 
 
 @app.route('/users/<int:user_id>', methods=['GET'])
 def get_user(user_id):
     data = read_csv()
     user = next((item for item in data if int(item['id']) == user_id), None)
+
+    if user:
+        return jsonify(user)
+    else:
+        return jsonify({'error': 'User not found'}), 404
+
+
+@app.route('/users/<int:user_id>', methods=['GET'])
+def get_user(user_id):
+    data = read_csv()
+    user = None
+
+    for item in data:
+        if int(item['id']) == user_id:
+            user = item
+            break
+
     if user:
         return jsonify(user)
     else:
@@ -84,3 +101,4 @@ def delete_user(user_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
