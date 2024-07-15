@@ -5,8 +5,19 @@ app = Flask(__name__)
 
 # Function to read the CSV file and return it as a list of dictionaries
 def csv_data():
-    data = pd.read_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 9.csv')
-    return data.to_dict(orient='records')
+    try:
+        data = pd.read_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July9.csv')
+        return data.to_dict(orient='records')
+    except FileNotFoundError:
+        print("File not found")
+        return None
+    except pd.errors.EmptyDataError:
+        print("There is no data in the file")
+        return None
+
+    except Exception as e:
+        print("there is some error in reading the file, that error is{e} ")
+        return None
 
 # Endpoint to get all users
 @app.route('/users', methods=['GET'])
