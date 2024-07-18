@@ -14,7 +14,7 @@ except pd.errors.ParserError:
 
 # Reading the second CSV file
 try:
-    df_present_absent = pd.read_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs/9 july 24.csv')
+    df_present_absent = pd.read_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs/July 16.csv')
     print("Dataframe 'present+absent.csv' successfully created!")
     print(df_present_absent.columns)
 except FileNotFoundError:
@@ -24,10 +24,10 @@ except pd.errors.ParserError:
 
 # Check if both dataframes were created successfully before merging
 if 'df_total_final' in locals() and 'df_present_absent' in locals():
-    # Check if 'Attn_id' exists in both dataframes
-    if 'Attn_id' in df_total_final.columns and 'Attn_id' in df_present_absent.columns:
-        # Merging the two dataframes on 'Attn_id'
-        merged_df = pd.merge(df_total_final, df_present_absent, on='Attn_id', how='left')
+    # Check if 'Attendance Id' exists in both dataframes
+    if 'Attendance Id' in df_total_final.columns and 'Attendance Id' in df_present_absent.columns:
+        # Merging the two dataframes on 'Attendance Id'
+        merged_df = pd.merge(df_total_final, df_present_absent, on='Attendance Id', how='left')
 
         # Display the merged dataframe
         print("Merged DataFrame:")
@@ -37,11 +37,11 @@ if 'df_total_final' in locals() and 'df_present_absent' in locals():
         #merged_df.to_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 4.csv', index=False)
         print("Merged DataFrame saved to 'attn_result.csv'.")
     else:
-        print("Error: 'Attn_id' column not found in one or both DataFrames.")
+        print("Error: 'Attendance Id' column not found in one or both DataFrames.")
 else:
     print("Merging not possible. One or both DataFrames are not available.")
 
 
 print("below are the all feature columns",merged_df.columns)
 merged_df = merged_df.drop(columns = [' Employee Designation',' Division/Units_x',' Office Locations_y','In Time_x','Out Time_x','Duration_x','Name'])
-merged_df.to_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 9(1).csv', index=False)
+merged_df.to_csv('C://Users//AKASH VISHWAKARMA//Documents//attendence docs//attn July 16.csv', index=False)
