@@ -43,6 +43,7 @@ stop_words = stopwords.words('english')
 cleaned = re.sub(r"[^a-zA-Z]"," ","corpus")
 print(cleaned)
 print(type(cleaned))
+
 # Remove punctuation and special characters using regular expression
 pattern = r'[^\w\s]'  # Matches any character that's not a word character or whitespace
 
@@ -60,6 +61,7 @@ words = [nltk.word_tokenize(sentence) for sentence in para]
 print(words)
 
 filtered_words = [[word for word in sentence if word.lower() not in stop_words] for sentence in words]
+
 
 
 '''
